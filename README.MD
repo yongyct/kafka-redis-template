@@ -11,6 +11,7 @@ You will need running Kafka & Redis instances. To set them up, see:
 ### Using the Template
 * Main "high-level" dataflow should be scripted into a class implementing `TopologyConstructor` interface under `constructTopology` method (see `SampleTopologyConstructor`)
 * Implement your data transformation logic from a variety of transformation interfaces provided by Kafka Streams (e.g. `ValueMapper`, `Transformer`, etc), which will be used by the `constructTopology` method
+* For more information, see: https://kafka.apache.org/documentation/streams/
 
 ### Writing Test Cases
 * To pipe in test data through Topology/Tranformations, extend the `StreamsIntegrationTestBase` class (see example `SampleIntegrationTestBase`)
@@ -23,7 +24,6 @@ You will need running Kafka & Redis instances. To set them up, see:
 * `redis.iscluster` in application.properties - to use redis cluster mode
 * Alternative: Use of `@Profile("myprofile")` to instantiate conditional beans (e.g. `KafkaSecurityConfiguration`)
 * Alternative: Use of `havingValue = ` in `@ConditionalOnProperty` annotation to turn on/off features
-* For more information, see: https://kafka.apache.org/documentation/streams/
 
 ## Built With
 * [Kafka](https://kafka.apache.org/) - Distributed Streaming Platform for Realtime Data Processing
