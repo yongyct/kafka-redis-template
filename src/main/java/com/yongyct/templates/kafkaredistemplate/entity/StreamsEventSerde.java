@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.entity;
+package com.yongyct.templates.kafkaredistemplate.entity;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

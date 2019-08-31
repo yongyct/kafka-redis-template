@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.topology;
+package com.yongyct.templates.kafkaredistemplate.topology;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -17,7 +17,7 @@ import org.springframework.context.annotation.DependsOn;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
-import com.chaooder.templates.kafkaredistemplate.config.KafkaStreamsConfiguration;
+import com.yongyct.templates.kafkaredistemplate.config.KafkaStreamsConfiguration;
 
 import lombok.Getter;
 import lombok.Setter;

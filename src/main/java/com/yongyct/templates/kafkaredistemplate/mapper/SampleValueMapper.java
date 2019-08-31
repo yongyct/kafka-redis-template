@@ -1,10 +1,10 @@
-package com.chaooder.templates.kafkaredistemplate.mapper;
+package com.yongyct.templates.kafkaredistemplate.mapper;
 
 import org.apache.kafka.streams.kstream.ValueMapper;
 
-import com.chaooder.templates.kafkaredistemplate.config.CommonConstants;
-import com.chaooder.templates.kafkaredistemplate.config.RedisSession;
-import com.chaooder.templates.kafkaredistemplate.entity.StreamsEvent;
+import com.yongyct.templates.kafkaredistemplate.config.CommonConstants;
+import com.yongyct.templates.kafkaredistemplate.config.RedisSession;
+import com.yongyct.templates.kafkaredistemplate.entity.StreamsEvent;
 
 import lombok.AllArgsConstructor;
 

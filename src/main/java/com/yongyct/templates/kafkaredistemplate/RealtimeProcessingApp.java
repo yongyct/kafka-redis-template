@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate;
+package com.yongyct.templates.kafkaredistemplate;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
