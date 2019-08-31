@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.config;
+package com.yongyct.templates.kafkaredistemplate.config;
 
 import java.util.Properties;
 
@@ -8,7 +8,7 @@ import org.apache.kafka.streams.errors.LogAndContinueExceptionHandler;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 
-import com.chaooder.templates.kafkaredistemplate.entity.StreamsEventSerde;
+import com.yongyct.templates.kafkaredistemplate.entity.StreamsEventSerde;
 
 /**
  * Defines kafka streams client properties

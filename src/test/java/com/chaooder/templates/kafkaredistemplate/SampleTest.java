@@ -10,12 +10,12 @@ import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.mock.mockito.MockBean;
 
-import com.chaooder.templates.kafkaredistemplate.config.CommonConstants;
-import com.chaooder.templates.kafkaredistemplate.config.RedisSession;
-import com.chaooder.templates.kafkaredistemplate.entity.StreamsEvent;
-import com.chaooder.templates.kafkaredistemplate.entity.StreamsEventSerde;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.yongyct.templates.kafkaredistemplate.config.CommonConstants;
+import com.yongyct.templates.kafkaredistemplate.config.RedisSession;
+import com.yongyct.templates.kafkaredistemplate.entity.StreamsEvent;
+import com.yongyct.templates.kafkaredistemplate.entity.StreamsEventSerde;
 
 public class SampleTest extends SampleIntegrationTestBase {
 

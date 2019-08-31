@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.entity;
+package com.yongyct.templates.kafkaredistemplate.entity;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;

@@ -12,13 +12,13 @@ import org.junit.Before;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 
-import com.chaooder.templates.kafkaredistemplate.config.KafkaStreamsConfiguration;
-import com.chaooder.templates.kafkaredistemplate.config.RedisConfiguration;
-import com.chaooder.templates.kafkaredistemplate.config.RedisSession;
-import com.chaooder.templates.kafkaredistemplate.entity.StreamsEvent;
-import com.chaooder.templates.kafkaredistemplate.entity.StreamsEventSerde;
-import com.chaooder.templates.kafkaredistemplate.topology.SampleTopologyConstructor;
-import com.chaooder.templates.kafkaredistemplate.topology.TopologyMetadata;
+import com.yongyct.templates.kafkaredistemplate.config.KafkaStreamsConfiguration;
+import com.yongyct.templates.kafkaredistemplate.config.RedisConfiguration;
+import com.yongyct.templates.kafkaredistemplate.config.RedisSession;
+import com.yongyct.templates.kafkaredistemplate.entity.StreamsEvent;
+import com.yongyct.templates.kafkaredistemplate.entity.StreamsEventSerde;
+import com.yongyct.templates.kafkaredistemplate.topology.SampleTopologyConstructor;
+import com.yongyct.templates.kafkaredistemplate.topology.TopologyMetadata;
 
 import lombok.extern.slf4j.Slf4j;
 
