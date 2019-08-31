@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.config;
+package com.yongyct.templates.kafkaredistemplate.config;
 
 /**
  * Common Constants used across various classes

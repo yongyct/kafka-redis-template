@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.topology;
+package com.yongyct.templates.kafkaredistemplate.topology;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;

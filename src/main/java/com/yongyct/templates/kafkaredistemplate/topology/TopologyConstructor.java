@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.topology;
+package com.yongyct.templates.kafkaredistemplate.topology;
 
 import org.apache.kafka.streams.StreamsBuilder;
 

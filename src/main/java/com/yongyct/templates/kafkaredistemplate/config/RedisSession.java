@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.config;
+package com.yongyct.templates.kafkaredistemplate.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;

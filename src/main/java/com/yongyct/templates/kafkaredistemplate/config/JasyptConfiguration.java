@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.config;
+package com.yongyct.templates.kafkaredistemplate.config;
 
 import org.jasypt.encryption.StringEncryptor;
 import org.jasypt.encryption.pbe.PooledPBEStringEncryptor;

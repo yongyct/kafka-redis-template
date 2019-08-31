@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.topology;
+package com.yongyct.templates.kafkaredistemplate.topology;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -13,11 +13,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.DependsOn;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
-import com.chaooder.templates.kafkaredistemplate.config.KafkaStreamsConfiguration;
+import com.yongyct.templates.kafkaredistemplate.config.KafkaStreamsConfiguration;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -96,6 +97,8 @@ public class TopologyRunner implements ApplicationContextAware {
 	@EventListener(ApplicationReadyEvent.class)
 	public void start() {
 		streams.setUncaughtExceptionHandler((thread, exception) -> {
+			ConfigurableApplicationContext ctx = (ConfigurableApplicationContext) applicationContext;
+			ctx.close();
 			log.error("Streams Uncaught Exception: ", exception);
 		});
 		log.info("Starting Kafka Streams App:");

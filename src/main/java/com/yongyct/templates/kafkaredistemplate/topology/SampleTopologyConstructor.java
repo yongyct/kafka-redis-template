@@ -1,4 +1,4 @@
-package com.chaooder.templates.kafkaredistemplate.topology;
+package com.yongyct.templates.kafkaredistemplate.topology;
 
 import org.apache.kafka.streams.StreamsBuilder;
 import org.apache.kafka.streams.kstream.KStream;
@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.chaooder.templates.kafkaredistemplate.config.RedisSession;
-import com.chaooder.templates.kafkaredistemplate.entity.StreamsEvent;
-import com.chaooder.templates.kafkaredistemplate.mapper.SampleValueMapper;
+import com.yongyct.templates.kafkaredistemplate.config.RedisSession;
+import com.yongyct.templates.kafkaredistemplate.entity.StreamsEvent;
+import com.yongyct.templates.kafkaredistemplate.mapper.SampleValueMapper;
 
 @Component
 public class SampleTopologyConstructor implements TopologyConstructor {
